@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+  background: linear-gradient(52deg, #12aae1, #12d8e1, #df85f0);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+
+.expense-tracker {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #023047;
+  }
+  
+  .expense-tracker h1 {
+    font-size: 40px;
+  }
+  .expense-tracker button {
+    margin-left: 10px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+  }
+  .profile-photo {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .sign-out-button {
+    border: none;
+    margin-top: 50px;
+    width: 150px;
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .sign-out-button:hover {
+    background: #3cb0fd;
+  
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .transactions {
+    text-align: center;
+   margin:80px auto 0 auto;
+   
+    width: 600px;
+    height: 400px;
+    overflow: scroll;
+    box-shadow: 5px 5px 50px 50px #10f3eb;
+    border-radius:40px;
+    background-color: #3cb0fd;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+
+  }
+  .transactions::-webkit-scrollbar {
+    display: none;
+  }
+  .transaction-list{
+    list-style-type: none;
+    padding-left:0;
+    width:300px;
+    margin:0 auto 0 auto;
+  }
+  .trans-head{
+    font-size:40px;
+  }
+  .t-list{
+    
+    margin-top:40px;
+    background-color: aqua;
+    box-shadow: 5px 5px 20px 20px #10f3eb;
+    border-radius:20px;
+    height: 120px;
+
+  }
+  .t-list-head{
+    font-size:28px;
+
+  }

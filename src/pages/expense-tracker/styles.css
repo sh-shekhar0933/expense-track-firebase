@@ -30,6 +30,7 @@ body{
   
   .expense-tracker h1 {
     font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .expense-tracker button {
     margin-left: 10px;
